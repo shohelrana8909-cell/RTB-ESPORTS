@@ -464,8 +464,8 @@ function LoginGate() {
           {loading ? "Logging in…" : "Log in"}
         </button>
         <p className="text-xs mt-4 leading-relaxed" style={{ color: MUTED }}>
-          Real access control via Supabase Auth + Row Level Security — see <b>ACCOUNTING_SCHEMA.sql</b>.
-          There's no self-signup; an admin has to invite each account from the Supabase dashboard
+          Real access control + Row Level Security — see <b>ACCOUNTING_</b>.
+          There's no self-signup; an admin has to invite each account from the Server dashboard
           (Authentication → Users → Invite user) before they can log in here.
         </p>
       </form>
